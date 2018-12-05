@@ -1,3 +1,6 @@
+
+We added codes for S3DIS dataset and multiple gpu version training codes in PointNet++.
+
 ### PointNet++: *Deep Hierarchical Feature Learning on Point Sets in a Metric Space*
 Created by <a href="http://charlesrqi.com" target="_blank">Charles R. Qi</a>, <a href="http://stanford.edu/~ericyi">Li (Eric) Yi</a>, <a href="http://ai.stanford.edu/~haosu/" target="_blank">Hao Su</a>, <a href="http://geometry.stanford.edu/member/guibas/" target="_blank">Leonidas J. Guibas</a> from Stanford University.
 
