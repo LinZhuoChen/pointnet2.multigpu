@@ -1,0 +1,1 @@
+Namespace(batch_size=32, gpu=0, log_dir='log_eval', model='pointnet2_part_seg', model_path='log/model.ckpt', num_point=4096)

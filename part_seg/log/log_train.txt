@@ -1,0 +1,173 @@
+Namespace(batch_size=32, decay_rate=0.7, decay_step=200000, learning_rate=0.001, log_dir='log', max_epoch=201, model='pointnet2_part_seg', momentum=0.9, num_gpus=2, num_point=2048, optimizer='adam')
+pid: 32040
+**** EPOCH 000 ****
+2018-12-27 21:53:45.153035
+ -- 010 / 437 --
+mean loss: 3.859472
+accuracy: 0.124432
+ -- 020 / 437 --
+mean loss: 2.503570
+accuracy: 0.421320
+ -- 030 / 437 --
+mean loss: 2.024092
+accuracy: 0.527444
+ -- 040 / 437 --
+mean loss: 1.730924
+accuracy: 0.590662
+ -- 050 / 437 --
+mean loss: 1.521594
+accuracy: 0.632088
+ -- 060 / 437 --
+mean loss: 1.439598
+accuracy: 0.654735
+ -- 070 / 437 --
+mean loss: 1.357805
+accuracy: 0.668903
+ -- 080 / 437 --
+mean loss: 1.329400
+accuracy: 0.671277
+ -- 090 / 437 --
+mean loss: 1.228049
+accuracy: 0.683420
+ -- 100 / 437 --
+mean loss: 1.118399
+accuracy: 0.718770
+ -- 110 / 437 --
+mean loss: 1.175524
+accuracy: 0.702507
+ -- 120 / 437 --
+mean loss: 1.035761
+accuracy: 0.727112
+ -- 130 / 437 --
+mean loss: 1.011495
+accuracy: 0.747418
+ -- 140 / 437 --
+mean loss: 1.141787
+accuracy: 0.720450
+ -- 150 / 437 --
+mean loss: 1.120728
+accuracy: 0.720074
+ -- 160 / 437 --
+mean loss: 0.949977
+accuracy: 0.748729
+ -- 170 / 437 --
+mean loss: 0.890158
+accuracy: 0.767239
+ -- 180 / 437 --
+mean loss: 0.824250
+accuracy: 0.784177
+ -- 190 / 437 --
+mean loss: 0.737895
+accuracy: 0.799644
+ -- 200 / 437 --
+mean loss: 0.900705
+accuracy: 0.770674
+ -- 210 / 437 --
+mean loss: 0.729731
+accuracy: 0.803160
+ -- 220 / 437 --
+mean loss: 0.855238
+accuracy: 0.779948
+ -- 230 / 437 --
+mean loss: 0.892982
+accuracy: 0.771162
+ -- 240 / 437 --
+mean loss: 0.716983
+accuracy: 0.815936
+ -- 250 / 437 --
+mean loss: 0.747718
+accuracy: 0.808475
+ -- 260 / 437 --
+mean loss: 0.736961
+accuracy: 0.807657
+ -- 270 / 437 --
+mean loss: 0.767481
+accuracy: 0.796056
+ -- 280 / 437 --
+mean loss: 0.795872
+accuracy: 0.789883
+ -- 290 / 437 --
+mean loss: 0.727587
+accuracy: 0.807443
+ -- 300 / 437 --
+mean loss: 0.707723
+accuracy: 0.818990
+ -- 310 / 437 --
+mean loss: 0.630590
+accuracy: 0.832976
+ -- 320 / 437 --
+mean loss: 0.612393
+accuracy: 0.840411
+ -- 330 / 437 --
+mean loss: 0.663665
+accuracy: 0.821120
+ -- 340 / 437 --
+mean loss: 0.785336
+accuracy: 0.805226
+ -- 350 / 437 --
+mean loss: 0.685698
+accuracy: 0.811165
+ -- 360 / 437 --
+mean loss: 0.732372
+accuracy: 0.807735
+ -- 370 / 437 --
+mean loss: 0.747398
+accuracy: 0.807852
+ -- 380 / 437 --
+mean loss: 0.699770
+accuracy: 0.813158
+ -- 390 / 437 --
+mean loss: 0.695247
+accuracy: 0.815453
+ -- 400 / 437 --
+mean loss: 0.768224
+accuracy: 0.795782
+ -- 410 / 437 --
+mean loss: 0.545158
+accuracy: 0.847719
+ -- 420 / 437 --
+mean loss: 0.658768
+accuracy: 0.825871
+ -- 430 / 437 --
+mean loss: 0.630855
+accuracy: 0.824754
+2018-12-27 22:00:43.531451
+---- EPOCH 000 EVALUATION ----
+000/090
+020/090
+040/090
+060/090
+080/090
+eval mean loss: 0.584235
+eval accuracy: 0.871933
+eval avg class acc: 0.555910
+eval mIoU of Airplane:	 0.660493
+eval mIoU of Bag:	 0.448748
+eval mIoU of Cap:	 0.366122
+eval mIoU of Car:	 0.327961
+eval mIoU of Chair:	 0.844978
+eval mIoU of Earphone:	 0.440766
+eval mIoU of Guitar:	 0.782964
+eval mIoU of Knife:	 0.782971
+eval mIoU of Lamp:	 0.687658
+eval mIoU of Laptop:	 0.917865
+eval mIoU of Motorbike:	 0.168593
+eval mIoU of Mug:	 0.486283
+eval mIoU of Pistol:	 0.554285
+eval mIoU of Rocket:	 0.237507
+eval mIoU of Skateboard:	 0.431529
+eval mIoU of Table:	 0.760459
+eval mean mIoU: 0.556199
+eval mean mIoU (all shapes): 0.717096
+Model saved in file: log/model.ckpt
+**** EPOCH 001 ****
+2018-12-27 22:01:50.844586
+ -- 010 / 437 --
+mean loss: 0.589400
+accuracy: 0.841035
+ -- 020 / 437 --
+mean loss: 0.543388
+accuracy: 0.848058
+ -- 030 / 437 --
+mean loss: 0.566158
+accuracy: 0.839105

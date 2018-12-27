@@ -1,0 +1,7 @@
+Namespace(batch_size=32, decay_rate=0.7, decay_step=200000, learning_rate=0.001, log_dir='log', max_epoch=251, model='pointnet2_cls_ssg', momentum=0.9, normal=False, num_gpus=2, num_point=1024, optimizer='adam')
+pid: 31722
+**** EPOCH 000 ****
+2018-12-27 21:47:19.010113
+ ---- batch: 050 ----
+mean loss: 3.429864
+accuracy: 0.177500

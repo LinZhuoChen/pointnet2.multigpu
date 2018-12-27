@@ -25,7 +25,7 @@ import modelnet_dataset
 import modelnet_h5_dataset
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--num_gpus', type=int, default=1, help='How many gpus to use [default: 1]')
+parser.add_argument('--num_gpus', type=int, default=2, help='How many gpus to use [default: 1]')
 parser.add_argument('--model', default='pointnet2_cls_ssg', help='Model name [default: pointnet2_cls_ssg]')
 parser.add_argument('--log_dir', default='log', help='Log dir [default: log]')
 parser.add_argument('--num_point', type=int, default=1024, help='Point Number [default: 1024]')
